@@ -32,5 +32,18 @@ Strategy:
 
 //Algorithm:
 
+//algorithm that outputs fibunacci numbers:
+function fibNum() {
+  var initialNum = 1;
 
-//1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+  for (var i = 1; i < 10; i++) {
+    initialNum = initialNum + i;
+    FN = 1 + initialNum;
+    console.log(FN)
+  }
+}
+
+fibNum(); 
+//not solution will come back to it later 
+
+//0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
